@@ -34,5 +34,5 @@ export const AppProvider = ({ children }) => {
 };
 
 export const useGlobalContext = () => {
-  useContext(AppContext);
+  return useContext(AppContext);
 };
